@@ -6,11 +6,15 @@
 
 <h2>Hi there, I'm Khanh Nam 👋</h2>
 
-<h3>Building intelligent systems from simulation to silicon.</h3>
+<p>
+Welcome to my GitHub! I'm an AI/ML Engineer based in Hanoi with a passion for
+building intelligent systems that can learn, adapt, and work in the real world.
+</p>
 
 <p>
-AI/ML Engineer in Hanoi specializing in <b>deep reinforcement learning</b>,
-<b>TinyML</b>, and reliable model deployment on resource-constrained hardware.
+I'm especially excited about <b>deep reinforcement learning, robotics, and Edge AI</b>.
+My goal is to grow through meaningful projects and contribute to reliable AI solutions,
+from research and simulation to deployment on edge devices.
 </p>
 
 [![Email](https://img.shields.io/badge/Let's_talk-namnk2004.work%40gmail.com-0B2545?style=for-the-badge&logo=gmail&logoColor=white)](mailto:namnk2004.work@gmail.com)
