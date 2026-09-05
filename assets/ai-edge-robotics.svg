@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title description">
+  <title id="title">AI, Edge Computing and Robotics animated banner</title>
+  <desc id="description">An animated data flow connects an autonomous drone, a neural network, and an Edge AI chip.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.52" stop-color="#0B2545"/>
+      <stop offset="1" stop-color="#071A2B"/>
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4DA3D9"/>
+      <stop offset="1" stop-color="#5FA8D3"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#4DA3D9" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#4DA3D9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8EC5E8" stroke-opacity="0.07" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.2" fill="#82C4E8" fill-opacity="0.14"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="358" rx="26" fill="url(#background)" stroke="#1D4E73" stroke-width="2"/>
+  <rect x="1" y="1" width="998" height="358" rx="26" fill="url(#grid)"/>
+
+  <ellipse cx="197" cy="163" rx="150" ry="135" fill="url(#halo)">
+    <animate attributeName="opacity" values="0.45;0.9;0.45" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="500" cy="160" rx="170" ry="135" fill="url(#halo)">
+    <animate attributeName="opacity" values="0.8;0.35;0.8" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="803" cy="163" rx="150" ry="135" fill="url(#halo)">
+    <animate attributeName="opacity" values="0.35;0.85;0.35" dur="4.5s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Flow lines -->
+  <path id="leftFlow" d="M284 158 C340 112 372 112 421 150" fill="none" stroke="#1D4E73" stroke-width="3"/>
+  <path id="rightFlow" d="M580 150 C632 112 679 116 719 158" fill="none" stroke="#1D4E73" stroke-width="3"/>
+  <path d="M284 158 C340 112 372 112 421 150" fill="none" stroke="url(#cyanGlow)" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 18" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="56" to="0" dur="2.2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M580 150 C632 112 679 116 719 158" fill="none" stroke="url(#cyanGlow)" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 18" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="56" to="0" dur="2.2s" begin=".45s" repeatCount="indefinite"/>
+  </path>
+  <circle r="5" fill="#82C4E8" filter="url(#glow)">
+    <animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#leftFlow"/></animateMotion>
+  </circle>
+  <circle r="5" fill="#76B6DA" filter="url(#glow)">
+    <animateMotion dur="2.6s" begin=".6s" repeatCount="indefinite"><mpath href="#rightFlow"/></animateMotion>
+  </circle>
+
+  <!-- Autonomous drone -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="3.4s" repeatCount="indefinite"/>
+    <g fill="none" stroke="#82C4E8" stroke-width="3">
+      <path d="M164 148L124 128M236 148L276 128"/>
+      <path d="M164 155L127 181M236 155L273 181"/>
+      <ellipse cx="113" cy="123" rx="29" ry="7">
+        <animateTransform attributeName="transform" type="rotate" from="0 113 123" to="360 113 123" dur=".8s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="287" cy="123" rx="29" ry="7">
+        <animateTransform attributeName="transform" type="rotate" from="360 287 123" to="0 287 123" dur=".8s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="113" cy="187" rx="29" ry="7">
+        <animateTransform attributeName="transform" type="rotate" from="360 113 187" to="0 113 187" dur=".8s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="287" cy="187" rx="29" ry="7">
+        <animateTransform attributeName="transform" type="rotate" from="0 287 187" to="360 287 187" dur=".8s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <path d="M165 139 Q200 121 235 139 L225 166 Q200 179 175 166Z" fill="#134074" stroke="#C7E3F4" stroke-width="2"/>
+    <circle cx="200" cy="151" r="9" fill="#071A2B" stroke="#82C4E8" stroke-width="2"/>
+    <circle cx="200" cy="151" r="3.5" fill="#82C4E8" filter="url(#glow)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="1.3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Neural network -->
+  <g fill="none" stroke="#3E8EBD" stroke-opacity="0.42" stroke-width="2">
+    <path d="M438 116L500 93L560 120M438 116L500 159L560 120M438 116L500 218M438 200L500 93M438 200L500 159M438 200L500 218M500 93L560 202M500 159L560 120M500 159L560 202M500 218L560 120M500 218L560 202"/>
+  </g>
+  <g fill="#0B2545" stroke="#82C4E8" stroke-width="3">
+    <circle cx="438" cy="116" r="11"/><circle cx="438" cy="200" r="11"/>
+    <circle cx="500" cy="93" r="11"/><circle cx="500" cy="159" r="14"/><circle cx="500" cy="218" r="11"/>
+    <circle cx="560" cy="120" r="11"/><circle cx="560" cy="202" r="11"/>
+  </g>
+  <g fill="#C7E3F4" filter="url(#glow)">
+    <circle cx="438" cy="116" r="3"><animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="159" r="4"><animate attributeName="r" values="4;8;4" dur="2s" begin=".4s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="202" r="3"><animate attributeName="r" values="3;6;3" dur="2s" begin=".8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Edge AI chip -->
+  <g stroke-linecap="round">
+    <g stroke="#5FA8D3" stroke-width="4">
+      <path d="M758 105V87M789 105V87M820 105V87M851 105V87M758 215V233M789 215V233M820 215V233M851 215V233"/>
+      <path d="M740 123H722M740 154H722M740 185H722M869 123H887M869 154H887M869 185H887"/>
+    </g>
+    <rect x="740" y="105" width="129" height="110" rx="15" fill="#0E3155" stroke="#76B6DA" stroke-width="3"/>
+    <rect x="758" y="123" width="93" height="74" rx="10" fill="#071A2B" stroke="#24577A" stroke-width="2"/>
+    <path d="M773 173L788 144L804 173L820 144L837 173" fill="none" stroke="url(#cyanGlow)" stroke-width="4" filter="url(#glow)">
+      <animate attributeName="stroke-dasharray" values="0 130;65 65;130 0;0 130" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <text x="805" y="190" fill="#B8D8EB" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="middle" letter-spacing="2">EDGE AI</text>
+  </g>
+
+  <!-- Labels -->
+  <g fill="#F4F7FB" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" text-anchor="middle">
+    <text x="200" y="266" font-size="16" font-weight="700" letter-spacing="2">AUTONOMOUS SYSTEMS</text>
+    <text x="500" y="266" font-size="16" font-weight="700" letter-spacing="2">INTELLIGENCE</text>
+    <text x="805" y="266" font-size="16" font-weight="700" letter-spacing="2">EDGE DEPLOYMENT</text>
+  </g>
+  <g fill="#82C4E8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" text-anchor="middle">
+    <text x="200" y="289">DEEP REINFORCEMENT LEARNING</text>
+    <text x="500" y="289">TRAIN · OPTIMIZE · VALIDATE</text>
+    <text x="805" y="289">TINYML · ESP32-S3</text>
+  </g>
+
+  <!-- Animated positioning line -->
+  <text x="500" y="328" fill="#8DA9C4" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" text-anchor="middle">
+    <tspan>BUILDING INTELLIGENT SYSTEMS FROM SIMULATION TO SILICON</tspan>
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="4s" repeatCount="indefinite"/>
+  </text>
+</svg>
