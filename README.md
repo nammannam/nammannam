@@ -33,35 +33,6 @@ AI/ML Engineer in Hanoi specializing in <b>deep reinforcement learning</b>,
 - **Model Optimization** — INT8 quantization, pruning, latency and memory benchmarking, and Pareto-based model selection.
 - **AI Engineering** — PyTorch, TensorFlow, NumPy, pandas, scikit-learn, Matplotlib, and Weights & Biases.
 
-## Featured projects
-
-### 🩺 TinyML for Vital-Sign Analysis
-
-**Graduation thesis** · Deployed risk-classification models directly on the ESP32-S3.
-
-- Optimized SVM and MLP models with Random Fourier Features, INT8 quantization, and pruning.
-- Benchmarked accuracy, latency, flash, and RAM to identify the best model through a Pareto frontier.
-
-`C/C++` · `Python` · `TensorFlow Lite Micro` · `ESP32-S3`
-
-### 🌱 Smart Plant Care with Edge AI
-
-**Embedded AI system** · Forecasted temperature on-device from historical sensor data.
-
-- Built FreeRTOS firmware for sensing, actuator control, MQTT communication, and ML inference.
-- Trained and deployed an LSTM model to the ESP32-S3 using Edge Impulse.
-
-`C/C++` · `FreeRTOS` · `MQTT` · `Edge Impulse`
-
-### 🎥 Video Meeting Platform
-
-**Backend and DevOps** · Built secure services and an automated deployment pipeline.
-
-- Developed REST APIs, JWT authentication, and authorization with Spring Security.
-- Containerized the system and deployed it through GitHub Actions, Docker, Nginx, and SSL.
-
-`Java` · `Spring Boot` · `PostgreSQL` · `Docker` · [Project organization →](https://github.com/CNWeb-20251)
-
 ## Technology stack
 
 ### 🧠 AI / Machine Learning
