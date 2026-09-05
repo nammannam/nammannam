@@ -12,6 +12,7 @@ AI/ML Engineer in Hanoi specializing in <b>deep reinforcement learning</b>,
 </p>
 
 [![Email](https://img.shields.io/badge/Let's_talk-namnk2004.work%40gmail.com-0B2545?style=for-the-badge&logo=gmail&logoColor=white)](mailto:namnk2004.work@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Khanh_Nam_Nguyen-134074?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khanh-nam-nguyen-741964376/)
 [![Location](https://img.shields.io/badge/Hanoi-Vietnam-020617?style=for-the-badge&logo=googlemaps&logoColor=white)](https://www.google.com/maps/place/Hanoi)
 
 </div>
@@ -123,6 +124,7 @@ AI/ML Engineer in Hanoi specializing in <b>deep reinforcement learning</b>,
 **AI/ML Engineering · Robotics · Reinforcement Learning · Edge AI**
 
 [![Connect](https://img.shields.io/badge/Connect_with_me-134074?style=for-the-badge&logo=gmail&logoColor=white)](mailto:namnk2004.work@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/Connect_on-LinkedIn-0B2545?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khanh-nam-nguyen-741964376/)
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:2E5F85,50:0B2545,100:020617&height=105&section=footer)
 
