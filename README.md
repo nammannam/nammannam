@@ -4,6 +4,8 @@
 
 <img src="./assets/ai-edge-robotics.svg" width="100%" alt="Animated journey from autonomous robotics through machine learning to Edge AI deployment" />
 
+<h2>Hi there, I'm Khanh Nam 👋</h2>
+
 <h3>Building intelligent systems from simulation to silicon.</h3>
 
 <p>
@@ -33,7 +35,7 @@ AI/ML Engineer in Hanoi specializing in <b>deep reinforcement learning</b>,
 - **Model Optimization** — INT8 quantization, pruning, latency and memory benchmarking, and Pareto-based model selection.
 - **AI Engineering** — PyTorch, TensorFlow, NumPy, pandas, scikit-learn, Matplotlib, and Weights & Biases.
 
-## Technology stack
+## Tech stack
 
 ### 🧠 AI / Machine Learning
 
