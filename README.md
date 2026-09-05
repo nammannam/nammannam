@@ -103,12 +103,14 @@ AI/ML Engineer in Hanoi specializing in <b>deep reinforcement learning</b>,
 
 - Containerization, CI/CD, server configuration, experiment environments, and deployment.
 
-## GitHub activity
+## Explore my work
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=nammannam&amp;show_icons=true&amp;theme=transparent&amp;hide_border=true&amp;title_color=2E5F85&amp;icon_color=4D8FC3&amp;text_color=7890A8" alt="Nam's GitHub statistics" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nammannam&amp;layout=compact&amp;theme=transparent&amp;hide_border=true&amp;title_color=2E5F85&amp;text_color=7890A8" alt="Nam's most used languages" />
+[![GitHub profile](https://img.shields.io/badge/GitHub-View_Profile-0B2545?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nammannam)
+[![Repositories](https://img.shields.io/badge/Explore-Repositories-134074?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nammannam?tab=repositories)
+
+<sub>See my pinned projects and GitHub's native contribution activity below this profile.</sub>
 
 </div>
 
