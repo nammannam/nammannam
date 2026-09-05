@@ -33,16 +33,6 @@ AI/ML Engineer in Hanoi specializing in <b>deep reinforcement learning</b>,
 - **Model Optimization** — INT8 quantization, pruning, latency and memory benchmarking, and Pareto-based model selection.
 - **AI Engineering** — PyTorch, TensorFlow, NumPy, pandas, scikit-learn, Matplotlib, and Weights & Biases.
 
-## Research experience
-
-### AI Research Intern · Viettel Aerospace Institute
-
-`May 2025 – May 2026` · **UAV Trajectory Planning with Deep Reinforcement Learning**
-
-- Developed and evaluated **DDPG and TD3** policies for UAV navigation in obstacle-rich simulated environments.
-- Designed scenario-generation pipelines, progressive training curricula, and reward functions for safe and efficient flight.
-- Integrated **Artificial Potential Fields** to guide exploration and improve obstacle avoidance.
-
 ## Featured projects
 
 ### 🩺 TinyML for Vital-Sign Analysis
